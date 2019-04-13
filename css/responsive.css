@@ -1,0 +1,408 @@
+
+@media(max-width: 1199px){
+
+	.logo {width: 200px;}
+	.carousel-custom-caption h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;}
+    .carousel-custom-caption p {
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #fff;}
+    .slider-btn1, .slider-btn2 {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 0 0 0 20px;
+    padding: 15px 32px;
+    font-size: 10px;
+    font-weight: 300;
+    position: relative;
+    transition: width .4s ease;}
+
+.skilled-title h4 {
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 43px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #40afcc;}
+.education-sec {
+    margin-top: 200px;
+    position: relative;
+    cursor: pointer;}
+
+.input-group input {width: 93%; }
+   
+    .giphy-img{max-width: 200px}
+
+
+
+}
+
+
+@media(max-width: 991px){
+ .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    background: #40b0cc;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(64, 176, 204) !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+.about-sec-title h3::after {
+    content: "Welcome";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 85px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.section-title h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    color: #40afcc;
+    position: relative;
+}
+.about-content {
+    margin-top: 35px;
+}
+.about-content p {
+    font-size: 11px;
+    color: #242424;
+    font-weight: 300;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #00000036;
+}
+.skilles-sec-title h3::after {
+    content: "MY EXPERTISE AREAS";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 82px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.skilled-title h4 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #40afcc;
+}
+.education-sec {
+    margin-top: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.resume-sec-title h3::after {
+    content: "MY AWESOME STORY";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 80px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.works-sec-title h3::after {
+    content: "LETEST PORTFOLIO";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 85px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.my-mix-btn {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.available-title h3 {
+    color: #fff;
+    text-transform: uppercase;
+    left: 98px;
+    margin-top: auto;
+    font-weight: 400;
+    font-size: 18px;
+    float: left;
+    padding: 48px 75px;
+    margin-bottom: 0;
+}
+span.quection-badge {
+    margin-right: 22px;
+    background: #fff;
+    padding: 10px 30px;
+    margin-top: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #40afcc;
+    float: right;
+    border-radius: 0 0 25px 0;
+    transition: .3s ease;
+}
+#contact {
+    padding: 0;
+}
+.available-title {
+    background: url(../images/quection_bg.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.contact-sec-title h3::after {
+    content: "DROP ME A LINE";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 100px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.contactform-margin {
+    margin-top: 70px;
+}
+.input-group input {
+    width: 93%;
+}
+textarea {
+    width: 100%;
+    height: 138px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #40afcc;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-weight: 400;
+}
+input.contact-submit {
+    width: 50%;
+    float: right;
+    border-radius: 0 0 20px 0;
+    background: #40afcc;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 10px;
+}
+.resume-item p {
+    font-size: 12px;
+    color: #242424;
+    font-weight: 300;
+    margin-top: 25px;
+}
+#works {
+    padding: 15px 0 50px 0;
+}
+.footer-social {
+    background: #f1fcff;
+    color: #40afcc;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    padding: 15px 40px;
+    border-radius: 0 0 40px 0;
+}
+.footer-social-margin {
+    margin-top: 50px;
+}
+#top-footer {
+    padding: 10px;
+    background: #40afcc;
+}
+.copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #313435;
+    font-weight: 400;
+}
+}
+
+
+@media(max-width: 767px){
+.header-social {
+    top: 20%;
+    position: absolute;
+    right: 40px;}
+.section-title h3 {
+  
+    margin-top: 50px;
+}
+#skills {
+    padding: 0 0 40px 0;
+}
+.skilles-sec-title h3::after {
+    content: "MY EXPERTISE AREAS";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 60px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+#resume {
+    padding: 0px 0 0px 0;
+}
+.resume-sec-title h3::after {
+    content: "MY AWESOME STORY";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 60px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.works-sec-title h3::after {
+    content: "LETEST PORTFOLIO";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f7f7f7;
+    z-index: -10;
+    font-size: 60px;
+    font-family: 'Impact';
+    top: -6px;
+    right: 0;
+}
+.my-mix-btn button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+span.quection-badge {
+    margin-right: 22px;
+    background: #fff;
+    padding: 10px 30px;
+    margin-top: 47px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #40afcc;
+    float: right;
+    border-radius: 0 0 25px 0;
+    transition: .3s ease;
+}
+.available-title h3 {
+    color: #fff;
+    text-transform: uppercase;
+    left: 97px;
+    margin-top: auto;
+    font-weight: 400;
+    font-size: 12px;
+    float: left;
+    padding: 48px 75px;
+    margin-bottom: 0;
+}
+span.quection-badge {
+    margin-right: 22px;
+    background: #fff;
+    padding: 12px 30px;
+    margin-top: 41px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #40afcc;
+    float: right;
+    border-radius: 0 0 25px 0;
+    transition: .3s ease;
+    transform: translateX(16%);
+}
+
+}
+
+
+@media(max-width: 575px){
+	.carousel-custom-caption h1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+.carousel-custom-caption p {
+    font-size: 9px;
+    font-weight: 300;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.slider-btn1, .slider-btn2 {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 0 0 0 20px;
+    padding: 10px 32px;
+    font-size: 10px;
+    font-weight: 300;
+    position: relative;
+    transition: width .4s ease;
+}
+.header-social i {
+    color: #929292;
+    background: #f5f5f5;
+    border: 1px solid #929292;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 1px;
+    border-radius: 30px;
+    transition: .3s ease;
+}
+.social-title {
+    transform: rotate(-90deg);
+    color: #f5f5f5;
+    margin-top: 40px;
+    font-size: 14px;
+    margin-left: -18px;
+    display: none;
+}
+.logo {
+    width: 150px;
+}
+	
+}
